@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos compuestos</title>
+</head>
+<body>
+    <!-- Entradas / inputs -->
+    <input type="text" name="Input1" id="Input1" value="Valor1">
+    <br>
+    <!-- Etiquetas para input -->
+    <label for="Input1">Ejemplo de input basico</label>
+    <br>
+    <br>
+    <hr>
+    <!-- tipos de input -->
+    <label for="correo1">Input de correo</label>
+    <input type="email" name="correo1" id="correo1" autocomplete="email"><br><br>
+
+    <label for="numero1">Input de numero</label>
+    <input type="number" name="numero1" id="numero1"><br><br>
+
+    <label for="passw1">Input de password</label>
+    <input type="password" name="passw1" id="passw1"><br><br>
+
+    <label for="telefono1">Input de telefono</label>
+    <input type="tel" name="tel1" id="tel1" maxlength="10"><br><br>
+
+    <label for="url1">Input de url</label>
+    <input type="url" name="url1" id="url1">
+    <hr>
+    <h3>Tipo checkbox</h3>
+    <input type="checkbox" name="bici" id="bici">
+    <label for="bici">Bici</label><br><br>
+    <input type="checkbox" name="carro" id="carro">
+    <label for="carro">carro</label><br><br>
+    <input type="checkbox" name="avion" id="avion">
+    <label for="avion">avion</label><br><br>
+    <hr>
+    <h3>Input de color</h3>
+    <label for="color1">Color:</label>
+    <input type="color" name="color1" id="color1"><br><br>
+    <hr>
+    <h3>Input de fechas</h3>
+    <input type="date" name="date1" id="date1"><br><br>
+    <input type="datetime-local" name="date2" id="date2"><br>
+    <input type="week" name="wee1" id="wee1"><br>
+    <input type="time" name="tim1" id="tim1"><br>
+    <input type="month" name="mon1" id="mon1"><br>
+    <hr>
+    <h3>Input de archivos</h3>
+    <input type="file" name="fi" id="fi" multiple><br><br>
+    <hr>
+    <h3>Input radio button</h3>
+    <input type="radio"  id="html" name="fav_lan" value="html">
+    <label for="html">HTML</label><br>
+    
+    <input type="radio"  id="java" name="fav_lan" value="java">
+    <label for="java">JAVA</label><br>
+
+    <input type="radio"  id="python" name="fav_lan" value="python">
+    <label for="python">PYTHON</label><br>
+    <hr>
+    <h3>Input de barra deslizante</h3>
+    <label for="range1">Grados de libertad (0-180)</label>
+    <input type="range" name="vol" id="vol" min="0" max="180"><br>
+    <hr>
+    <h3>Botones</h3>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+
+    <input type="button" id="boton1" name="boton1" value="Boton 1" onclick="alert('welcome')">
+
+    
+</body>
+</html>
