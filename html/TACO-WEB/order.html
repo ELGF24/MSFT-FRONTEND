@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="shorcut icon" href="img/main-logo.png">
+</head>
+<body>
+    <h1 style="text-align: center;">Pedido</h1>
+    <form action="pedido.js">
+        <label for="nombre">Proporciona tu Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br><br>
+
+        <label for="mesa">Ingresa tu numero de Mesa:</label>
+        <input type="number" id="mesa" name="mesa" placeholder="Numero de mesa" min="0"><br><br>
+
+        <p>Para aqui o para llevar?</p>
+        <input type="radio" name="aquiollevar" id="aqui" value="aqui">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" name="aquiollevar" id="llevar" value="llevar">
+        <label for="aqui">Llevar</label><br>
+
+        <p>Tacos de Que?</p>
+        <input type="number" name="pastor" id="pastor" value="pastor" min="0" placeholder="Cuantos?">
+        <label for="bici">Pastor</label><br><br>
+        <input type="number" name="Bistek" id="Bistek" value="Bistek" min="0" placeholder="Cuantos?">
+        <label for="carro">Bistek</label><br><br>
+        <input type="number" name="Chorizo" id="Chorizo" value="Chorizo" min="0" placeholder="Cuantos?">
+        <label for="avion">Chorizo</label><br><br>
+        <input type="number" name="Suadero" id="Suadero" value="Suadero" min="0" placeholder="Cuantos?">
+        <label for="avion">Suadero</label><br><br>
+
+        <p>Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="coca">Coca-Cola</option>
+            <option value="fanta">Fanta</option>
+            <option value="sprite">Sprite</option>
+            <option value="drpepper">Dr. Pepper</option>
+            <option value="boingmango">Boing Mango</option>
+            <option value="boingguayaba">Boing Guayaba</option>
+        </select>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
