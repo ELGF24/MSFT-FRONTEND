@@ -1,0 +1,49 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.h1-header {
+    text-align: center;
+    color: chocolate;
+}
+
+.ul-a {
+    text-decoration: none;
+    color: brown;
+
+}
+
+.nav-li {
+    display: inline;
+    padding: 5px;
+}
+
+/* MAIN */
+
+.h2-cake,
+.h2-adornos {
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+.div-pasteles,
+.div-adornos{
+    background-color: coral;
+    padding: 15px;
+    /* width: 250px; */
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+

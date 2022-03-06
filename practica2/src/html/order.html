@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+    <header>
+        <center>
+            <img src="../img/logo.png" alt="logo" class="img-logo">
+        </center>
+        <h1 class="h1-header">Bakery Shop</h1>
+        <nav class="header-nav">
+            <ul>
+                <a href="../index.html" class="ul-a"><li class="nav-li">Home</li></a>
+                <a href="menu.html" class="ul-a"><li class="nav-li">Menu</li></a>
+                <a href="order.html" class="ul-a"><li class="nav-li">Order</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="h2-order">Order</h2>
+        <div class="container">
+            <form action="../html/panadero.html" id="order">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" >
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" >
+                </div>
+                <div class="field">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" >
+                </div>
+                <div class="field">
+                    <label for="description">Description:</label>
+                    <textarea name="description" id="description" cols="10" rows="5" placeholder="Enter the product description"></textarea>
+                </div>
+                <h3 class="cakes">Sabores de los pasteles</h3>
+                <label for="zh"><input type="checkbox" name="cakes[]" id="zh" value="zanahoria" >zanahoria</label>
+                <label for="cc"><input type="checkbox" name="cakes[]" value="coco" id="cc">coco</label>
+                <label for="dl"><input type="checkbox" name="cakes[]" value="dulce de leche" id="dl">dulce de leche</label>
+                <label for="tl"><input type="checkbox" name="cakes[]" value="tres leches" id="tl">tres leches</label><br><br>
+
+                <h3 class="adornos">Adornos Disponibles</h3>
+                <label for="ch"><input type="checkbox" name="adornos[]" value="chispas de chocolate"  id="ch">chispas de cocolate</label>
+                <label for="cr"><input type="checkbox" name="adornos[]" value="Chocoretas" id="cr" >Chocoretas</label>
+                <label for="or"><input type="checkbox" name="adornos[]" value="Oreo" id="or">Oreo</label><br><br>
+                <input type="submit" value="submit" id="btn">
+
+                <div class="msg">
+                    <pre></pre>
+                </div>
+            </form>
+            <p id="test"></p>
+        </div>
+    </main>
+</body>
+<script src="../js/order.js"></script>
+</html>
