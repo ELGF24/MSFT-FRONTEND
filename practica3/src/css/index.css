@@ -1,0 +1,227 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.h2-logo {
+    text-align: center;
+}
+
+.logo-h2 {
+    text-decoration: none;
+    font-weight: 900;
+    color: #3857d4;
+}
+
+.nav-bar {
+    padding: 50px;
+    /* background-color: coral; */
+    display: flex;
+}
+
+.logo {
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+}
+
+.navbar {
+    background-color: white;
+    margin-left: 10px;
+    width: 80%;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.ul-a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.li-item, .li-item-btn {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.li-item {
+    color: grey;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.li-item-btn {
+    padding: 15px;
+    background-color: #3757d5;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.about,
+.why,
+.preparations,
+.contact {
+    background-color: aqua;
+    padding: 150px;
+    margin-top: 5px;
+}
+
+/* About */
+.about {
+    background-color: white;
+}
+
+.virus {
+    /* background-color: rebeccapurple; */
+    width: 40%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.h2-about {
+    text-align: center;
+    font-size: 30px;
+    justify-content: right;
+    margin-bottom: 30px;
+    color: #1f3e72;
+}
+
+.desc {
+    font-size: 20px;
+    color: #6e7c94;
+    font-weight: 600;
+}
+
+.options {
+    /* background-color: red; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+    
+}
+
+.opt-1 {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6f83a4;
+}
+
+.opt-2 {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6f83a4;
+}
+
+.schedule {
+    background-color: lavender;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.text-sch {
+    font-size: 20px;
+    font-weight: 600;
+    color: #385382;
+}
+
+/* FORM */
+.form-schedule {
+    background-color: lavender;
+    margin-top: 10px;
+    padding: 15px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.form-schedule form {
+    display: flex;
+    
+}
+
+.labels {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6f83a4;
+}
+
+#country, #vaccine {
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.date-div {
+    margin-left: 50px;
+}
+
+#date {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.vaccine-type {
+    margin-left: 50px;
+}
+
+.btn {
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn-submit {
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #2b4bc8;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* 
+TODO: BRANDS
+*/
+
+.brands {
+    /* margin: 25p */
+    margin: 0 auto;
+}
+
+.vaccine-list {
+    display: flex;
+   margin-left: 20%;
+    list-style: none;
+    padding: 15px;
+}
+
+.item {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #e7ebfc;
+    margin: 25px;
+}
