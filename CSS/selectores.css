@@ -1,0 +1,32 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1, h2, p {
+    font-weight: bold;
+}
+#titulo {
+    text-align: right;
+    color: rebeccapurple;
+}
+p {
+    text-align: center;
+    color: red;
+}
+
+.izquierda {
+    text-align: left;
+    color: green;
+}
+
+p.izquierda {
+    text-decoration: underline;
+}
+
+p.contraste {
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+}

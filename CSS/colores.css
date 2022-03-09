@@ -1,0 +1,19 @@
+.colorRojo {
+    color: red;
+}
+
+.colorRGB {
+    color: rgb(56, 25, 89);
+}
+
+.colorRGBA{
+    color: rgba(89, 82, 12, 0.9);
+}
+
+.colorHEX{
+    color: #ee43ee;
+}
+
+.colorHSL {
+    color: hsl(30, 85%, 31%);
+}

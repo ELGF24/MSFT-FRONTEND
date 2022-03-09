@@ -1,0 +1,6 @@
+.cover {
+    background-image: url("https://www.google.com/search?q=tech+background&client=firefox-b-d&sxsrf=APq-WBuu7XBbHwwG62iLFGi9qk3sd4wgMQ:1646272885575&tbm=isch&source=iu&ictx=1&vet=1&fir=A_mmIRi02t1msM%252CFyDgS3C9xJpCTM%252C_%253BXI11coYyon4MsM%252C2jqyZrAFM4nq0M%252C_%253BXvefQQKowrwAoM%252CvC6UmdPBwM46uM%252C_%253BJqBPjDT25PK4KM%252Cb2c_YbWD_MoYTM%252C_%253BmiLV354gLTj95M%252Cu98NUSgWxFZbzM%252C_%253BRnjWfPpnTrcl1M%252Cc271k3aOspRD5M%252C_%253BFANqMAvSYOoUCM%252C60GesNd2GzW4sM%252C_%253B5-FTnqbopuy1eM%252CUHvzHMEJ-W2aAM%252C_%253B6YiJoHx45F75DM%252CU6VMttfIazui4M%252C_%253BNNw0PBEPbPp8FM%252CC0MRLFa0EJ5dRM%252C_%253B8rtfO35yKP_6DM%252Cori02SQWZkFVNM%252C_%253Bgt12qh3vuWBR-M%252CrHjgF8nXYTbljM%252C_&usg=AI4_-kS-CYCCLkQSv6IOgAA5HZyzF4puIQ&sa=X&ved=2ahUKEwjTt7C07Kj2AhX7kIkEHa1NAPkQ9QF6BAgDEAE#imgrc=A_mmIRi02t1msM");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

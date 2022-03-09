@@ -69,3 +69,9 @@ body {
     text-align: center;
     color: antiquewhite;
 }
+
+.p-order {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
