@@ -16,18 +16,18 @@
 
 .nav-bar {
     padding: 50px;
-    /* background-color: coral; */
+    background-color: white;
     display: flex;
 }
 
 .logo {
-    background-color: white;
+    background-color: transparent;
     padding: 20px;
     width: 20%;
 }
 
 .navbar {
-    background-color: white;
+    background-color: transparent;
     margin-left: 10px;
     width: 80%;
     padding: 20px;
@@ -66,7 +66,8 @@
 .about,
 .why,
 .preparations,
-.contact {
+.contact,
+.footer-vac {
     background-color: aqua;
     padding: 150px;
     margin-top: 5px;
@@ -74,7 +75,7 @@
 
 /* About */
 .about {
-    background-color: white;
+    background-color: #f1f5ff;
 }
 
 .virus {
@@ -224,4 +225,302 @@ TODO: BRANDS
     font-weight: 600;
     color: #e7ebfc;
     margin: 25px;
+}
+
+/* 
+TODO: Why section
+ */
+
+.why {
+    background-color: #ffff;
+}
+
+ .vac {
+     /* background-color: red; */
+     padding: 15px;
+     width: 40%;
+ }
+
+ .vac-h2 {
+     color: #1f3e72;
+     margin-bottom: 20px;
+ }
+
+ .why-desc {
+     font-size: 20px;
+     font-weight: 600;
+    color: #6e7c94;
+ }
+
+ .benefits {
+     display: flex;
+ }
+
+ .minimize,
+ .antibodies,
+ .protect,
+ .group {
+     background-color: lavender;
+     margin-right: 10px;
+     margin-top: 30px;
+     padding: 30px;
+     border-radius: 10px;
+     height: 200px;
+ }
+
+ .h2-min,
+ .h2-anti,
+ .h2-protect,
+ .h2-create {
+     color: #1f3e72;
+     margin-bottom: 20px;
+ }
+
+ .h2-protect {
+     margin-bottom: 50px;
+ }
+
+ .min,
+ .anti,
+ .pro,
+ .create {
+     font-size: 20px;
+     font-weight: 600;
+     color: #6e7c94;
+ }
+
+ /* 
+ TODO: preparations
+ */
+
+
+
+ .preparations {
+     display: flex;
+     background-color: #f1f5ff;
+ }
+
+ .first {
+     /* background-color: blue; */
+     padding: 20%;
+
+     margin-right: 10px;
+ }
+
+ .second {
+     /* background-color: red; */
+    padding: 20px;
+ }
+
+.prep {
+    padding: 15px;
+    background-color: lavender;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+ .avoid,
+ .stress,
+ .eat,
+ .sleep,
+ .exercise {
+     padding: 10px;
+     background-color: lavender;
+     margin-bottom: 10px;
+     border-radius: 10px;
+ }
+
+ .h2-prep {
+     color: #1f3e72;
+     font-weight: 900;
+     font-size: 40px;
+ }
+
+ .prep-desc {
+     font-size: 20px;
+     font-weight: 600;
+     color: #8893a7;
+ }
+
+ .h3-avoid,
+ .h3-stress,
+ .h3-eat,
+ .h3-sleep,
+ .h3-exercise {
+     color: #214073;
+ }
+
+ .stress-desc {
+     margin-left: 10px;
+     font-size: 18px;
+     font-weight: 600;
+     color: #6e7c94;
+ }
+
+ /* 
+ TODO: Contact
+ */
+
+ .contact {
+     background-color: white;
+ }
+
+ .emergency {
+     margin-bottom: 15px;
+     padding: 15px;
+ }
+
+ .h2-contact{
+     margin-bottom: 10px;
+     color: #1f3e72;
+     font-size: 50px;
+ }
+
+.contact-desc {
+    font-size: 25px;
+    font-weight: 600;
+    color: #6e7c94;
+}
+
+ .contacts {
+     display: flex;
+ }
+
+ .phone,
+ .chat,
+ .video,
+ .message {
+     margin-right: 15px;
+     background-color: lavender;
+     padding: 30px;
+     border-radius: 10px;
+ }
+
+ .h3-phone,
+ .h3-chat,
+ .h3-video,
+ .h3-message {
+     color: #214073;
+     font-weight: 600;
+     margin-bottom: 15px;
+ }
+
+ .phone-desc,
+ .chat-desc,
+ .video-desc,
+ .message-desc {
+     color: #6e7c94;
+     margin-bottom: 10px;
+ }
+
+ .btn-contact,
+ .second-btn {
+     padding: 10px;
+     width: 150px;
+     height: 50px;
+     background-color: #f1f5ff;
+     border-radius: 5px;
+     color: #365fff ;
+     font-size: 16px;
+     font-weight: 800;
+ }
+
+ .second-btn {
+     background-color: #2b4bc8;
+     color: white;
+ }
+
+ /* 
+ TODO: Footer
+ */
+
+ .footer-vac {
+     display: flex;
+     background-color: #f1f5ff;
+ }
+
+ .goal {
+     padding: 15px;
+     width: 400px;
+     /* background-color: lavender; */
+ }
+
+ .h2-fo {
+     color: #214073;
+     font-weight: 800;
+     margin-bottom: 30px;
+     font-size: 35px;
+ }
+
+ .goal-desc {
+     width: 70%;
+     color: #6f83a4;
+     font-weight: 600;
+     font-size: 20px;
+ }
+
+ .other-info {
+     margin-left: 20px;
+     /* background-color: #f1f5ff; */
+     width: 900px;
+     display: flex;
+     
+ }
+
+ .other-info div {
+     margin: 0 auto;
+ }
+
+.about-fo,
+.company,
+.support {
+    margin-left: 10px;
+    background-color: transparent;
+    width: 150px;
+}
+
+ .h2-aboutfo,
+ .h2-company,
+ .h2-support {
+     color: #214073;
+ }
+
+.a-li{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #6e7c94;
+}
+
+ .about-li,
+ .company-li,
+ .support-li {
+     margin-top: 15px;
+     list-style: none;   
+ }
+
+ .cpy {
+     padding: 15px;
+     background-color: #f1f5ff;
+     display: flex;
+ }
+
+ .cpy-des {
+     font-size: 15px;
+     font-weight: 600;
+     margin-left: 90px;
+     color: #6e7c94;
+ }
+
+.terms{ 
+    display: flex;
+    margin-left: 600px;
+}
+
+.term-desc,
+.privacy-po {
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6e7c94 ;
 }
